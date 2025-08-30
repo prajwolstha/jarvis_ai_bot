@@ -1,0 +1,6 @@
+SpeechRecognition
+PyAudio
+pygame
+requests
+pyjokes
+pywin32
