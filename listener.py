@@ -75,6 +75,7 @@ def listen(timeout=None, phrase_time_limit=None, language="en-US",
                 print(f"[listener] Error during listen(): {e!r}")
             return None
 
+
     # Recognize
     try:
         text = r.recognize_google(audio, language=language)
